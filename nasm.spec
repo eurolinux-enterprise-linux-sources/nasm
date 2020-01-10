@@ -1,7 +1,7 @@
 Summary: A portable x86 assembler which uses Intel-like syntax
 Name: nasm
 Version: 2.10.07
-Release: 5%{?dist}
+Release: 7%{?dist}
 License: BSD
 URL: http://www.nasm.us
 Source0: http://www.nasm.us/pub/nasm/releasebuilds/%{version}/%{name}-%{version}.tar.bz2
@@ -91,6 +91,12 @@ fi
 %{_mandir}/man1/ld*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.10.07-7
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.10.07-6
+- Mass rebuild 2013-12-27
+
 * Mon Jul  1 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 2.10.07-5
 - Move rdf manpages to rdf subpackage
 
